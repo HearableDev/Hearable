@@ -1,0 +1,40 @@
+name: hearable_device_sdk_sample
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+    
+  hearable_device_sdk_sample_plugin:
+    path: ../hearable_device_sdk_sample_plugin
+  cupertino_icons: ^1.0.2
+  uuid: ^3.0.6
+  provider: ^6.0.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icon/icon_android.png"
+  image_path_ios: "assets/icon/icon_ios.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icon/icon_android.png"
+  min_sdk_android: 28
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/hearable.jpg
