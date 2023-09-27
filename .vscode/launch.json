@@ -1,0 +1,48 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "hearable_device_sdk_sample",
+            "cwd": "hearable_device_sdk_sample",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hearable_device_sdk_sample (profile mode)",
+            "cwd": "hearable_device_sdk_sample",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hearable_device_sdk_sample (release mode)",
+            "cwd": "hearable_device_sdk_sample",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "hearable_device_sdk_sample_plugin",
+            "cwd": "hearable_device_sdk_sample_plugin",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hearable_device_sdk_sample_plugin (profile mode)",
+            "cwd": "hearable_device_sdk_sample_plugin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "hearable_device_sdk_sample_plugin (release mode)",
+            "cwd": "hearable_device_sdk_sample_plugin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
