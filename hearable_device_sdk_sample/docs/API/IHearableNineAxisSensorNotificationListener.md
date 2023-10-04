@@ -125,3 +125,6 @@ byte[] data
 |111|MAG Z Low [4]|
 
 resultCode
+
+### インタフェース仕様
+9軸センサの詳細仕様は[こちら](IHearableNineAxisSensorNotificationListenerDetail.md)を参照。
