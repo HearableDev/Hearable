@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:hearable_device_sdk_sample/start_scan.dart';
 import 'dart:io';
 import 'package:provider/provider.dart';
@@ -8,8 +9,11 @@ import 'package:hearable_device_sdk_sample/result_message.dart';
 import 'package:hearable_device_sdk_sample/bluetooth_manager.dart';
 import 'package:hearable_device_sdk_sample_plugin/hearable_device_sdk_sample_plugin.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     title: 'ヒアラブル機能テストアプリ',
     home: const StartScreen(),
     theme: ThemeData(appBarTheme: const AppBarTheme(color: Colors.black)),
