@@ -30,5 +30,5 @@ migrate_working_dir/
 build/
 
 # SDK
-android/
-ios/
+android/libs
+ios/framework

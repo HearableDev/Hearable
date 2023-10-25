@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.nec.hearabledevicesdk.SamplePlugin.hearable_device_sdk_sample_plugin">
+</manifest>
